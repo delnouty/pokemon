@@ -121,7 +121,7 @@ def display_winner_with_fireworks(winner):
 st.title("Pokémon Dashboard")
 
 # Fetch Pokémon data with limit set in sidebar
-limit = st.sidebar.slider("Select Pokémon Fetch Limit", 1, 200, 100)
+limit = st.sidebar.slider("Select Pokémon Fetch Limit", 1, 200, 16)
 pokemon_data = fetch_pokemon_data(limit)
 
 # Save the data to a DataFrame and display in the sidebar
