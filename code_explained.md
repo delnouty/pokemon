@@ -1,3 +1,26 @@
+## Bibliothèques Utilisées
+
+Ce projet utilise plusieurs bibliothèques Python pour fonctionner correctement. Voici un aperçu de chaque bibliothèque et de son rôle :
+
+- **requests** : 
+  - Utilisée pour envoyer des requêtes HTTP afin de récupérer des données depuis l'API PokeAPI. Elle simplifie la gestion des requêtes et des réponses, y compris le traitement des erreurs.
+
+- **random** : 
+  - Fournit des fonctions pour générer des nombres aléatoires et effectuer des opérations aléatoires, comme sélectionner un nombre aléatoire de Pokémon dans la liste.
+
+- **time** : 
+  - Utilisée pour gérer les délais, notamment pour éviter de dépasser les limites de requêtes de l'API en ajoutant des pauses entre les requêtes.
+
+- **pandas** : 
+  - Une bibliothèque puissante pour la manipulation et l'analyse de données. Dans ce projet, elle est utilisée pour structurer les données des Pokémon en un DataFrame, ce qui facilite leur affichage et leur manipulation.
+
+- **PIL (Python Imaging Library)** : 
+  - Utilisée pour le traitement d'images. Elle permet de redimensionner et d'afficher les images des Pokémon récupérées depuis l'API.
+
+- **streamlit** : 
+  - Une bibliothèque permettant de créer des applications web interactives à partir de scripts Python. Dans ce projet, elle est utilisée pour construire l'interface utilisateur, afficher les Pokémon, et gérer les interactions comme les sélections aléatoires et les combats.
+
+
 # Pokémon Dashboard
 
 Voici le code source pour le tableau de bord Pokémon. Ce projet utilise Streamlit pour afficher des informations sur les Pokémon, simuler des combats et organiser des tournois.
