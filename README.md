@@ -66,9 +66,9 @@ Bienvenue dans **Tournoi Pokémon**, une application Python interactive qui simu
 
 1. **Lancer l'application** :
     ```bash
-    streamlit run app.py
+    streamlit run sliders.py
     ```
-    Remplacez `app.py` par le nom de votre fichier principal si nécessaire.
+    Remplacez `sliders.py` par le nom de votre fichier principal si nécessaire.
 
 2. **Interactions dans l'interface** :
     - **Sélection du nombre de Pokémon** : Utilisez le slider pour choisir combien de Pokémon récupérer (par défaut 16).
